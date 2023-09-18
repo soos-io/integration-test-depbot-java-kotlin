@@ -32,5 +32,5 @@ project.plugins.withType(JavaPlugin::class) {
 }
 
 application {
-    mainClass.set("deptest.app.AppKt")
+    mainClass.set("deptestkotlin.app.AppKt")
 }
