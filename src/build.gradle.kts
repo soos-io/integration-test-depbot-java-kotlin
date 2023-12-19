@@ -20,7 +20,7 @@ dependencies {
     implementation("org.apache.commons:commons-text")
     val acmeVersion = "11.0.15"
     implementation("org.eclipse.jetty:jetty-openid:$acmeVersion")
-    implementation("com.google.guava:guava:31.0.1-android")
+    implementation("com.google.guava:guava:33.0.0-android")
     testImplementation("io.kotest:kotest-assertions-shared-js:5.0.0")
     testImplementation("io.kotest:kotest-assertions-shared-js:5.0.1")
 }
