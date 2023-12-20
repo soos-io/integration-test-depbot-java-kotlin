@@ -18,7 +18,7 @@ kotlinDslPluginOptions {
 
 dependencies {
     implementation("org.apache.commons:commons-text")
-    val acmeVersion = "11.0.15"
+    val acmeVersion = "12.0.5"
     implementation("org.eclipse.jetty:jetty-openid:$acmeVersion")
     implementation("com.google.guava:guava:31.0.1-android")
     testImplementation("io.kotest:kotest-assertions-shared-js:5.0.0")
